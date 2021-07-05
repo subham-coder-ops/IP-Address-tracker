@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Montserrat",sans-serif;
+
+}
+
+.main-container{
+  margin-top:250px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 200px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.3);
+
+
+}
+h1{
+  text-align: center;
+  margin-top:2rem;
+}
+
+.ip-display, .location-display, .time-display, .isp-display{
+  font-size: calc(4rem+1vw);
+  color:white;
+  margin:15px;
+}
+
+
+.lookup-btn{
+  border: none;
+  background:#c78c1e;
+  color: white;
+  font-size:1.5rem;
+  font-weight:700;
+  padding: 0.8rem 1.5rem;
+  border-radius:25px;
+  cursor:pointer;
+  transition:opacity 250ms linear;
+  padding:10px;
+}
+.lookup-btn{
+  opacity: 0.8;
+
+
+}
